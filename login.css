@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(log/br.jpg);
+    background-position:center ;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    }
+.login-div{
+    width: 430px;
+    height: 550px;
+    padding: 60px 35px 35px 35px;
+    border-radius:40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #4c5358, -13px -13px 20px rgb(36, 34, 34);
+}
+.logo{
+    background-image: url(log/lo.webp);
+    width: 100px;
+    height: 100px;
+    background-size:cover ;
+    margin: 0 auto;
+    border-radius:50%;
+}
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+    padding-top:24px;
+    letter-spacing: 0.5px;
+
+}
+.fields input{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.username,.password{
+    padding-left: 15px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,-8px -8px 8px #fff;
+}
+.sign-button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #cbced1;
+    text-align: center;
+    background-color: #02c8db;
+    box-shadow:3px 3px 8px #b1b1b1,-3px -3px 8px #fff ;
+    transition: 0,5s;
+}
+.sign-button:hover{
+    background-color:#50e5b9 ;
+}
+.link{
+    text-align: center;
+    padding-top: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: #4c5358;
+    font-size: 15px;
+}
+.but{
+  position: fixed;
+  top: 50px;
+  left: 25px;
+}
+.sig-button{
+    width: 80px;
+    height: 50px;
+    background-color:#c7d7d8;
+    border: none;
+    outline:none;
+    border-radius:10px ;
+    transition: 0.3s;
+}
+.sig-button a{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(20, 19, 19);
+    font-size: 18px;
+    font-weight:500;
+    letter-spacing: 0.7px;
+}
+.sig-button:hover{
+    background-color:#50e5b9 ;
+   
+}
